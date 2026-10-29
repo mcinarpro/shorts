@@ -1,0 +1,431 @@
+{
+  "voice": true,
+  "durationMs": 24288,
+  "scenes": [
+    {
+      "id": "hook",
+      "startMs": 0
+    },
+    {
+      "id": "clock",
+      "startMs": 3564
+    },
+    {
+      "id": "split",
+      "startMs": 9497
+    },
+    {
+      "id": "wrong",
+      "startMs": 12910
+    },
+    {
+      "id": "no",
+      "startMs": 16579
+    },
+    {
+      "id": "end",
+      "startMs": 18843
+    }
+  ],
+  "captions": [
+    {
+      "text": "I",
+      "startMs": 0,
+      "endMs": 81,
+      "timestampMs": 0,
+      "confidence": null
+    },
+    {
+      "text": " built",
+      "startMs": 174,
+      "endMs": 360,
+      "timestampMs": 174,
+      "confidence": null
+    },
+    {
+      "text": " my",
+      "startMs": 406,
+      "endMs": 488,
+      "timestampMs": 406,
+      "confidence": null
+    },
+    {
+      "text": " personal",
+      "startMs": 569,
+      "endMs": 975,
+      "timestampMs": 569,
+      "confidence": null
+    },
+    {
+      "text": " site",
+      "startMs": 1045,
+      "endMs": 1289,
+      "timestampMs": 1045,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 1335,
+      "endMs": 1428,
+      "timestampMs": 1335,
+      "confidence": null
+    },
+    {
+      "text": " one",
+      "startMs": 1544,
+      "endMs": 1776,
+      "timestampMs": 1544,
+      "confidence": null
+    },
+    {
+      "text": " evening.",
+      "startMs": 1811,
+      "endMs": 2229,
+      "timestampMs": 1811,
+      "confidence": null
+    },
+    {
+      "text": " With",
+      "startMs": 2380,
+      "endMs": 2566,
+      "timestampMs": 2380,
+      "confidence": null
+    },
+    {
+      "text": " AI.",
+      "startMs": 2647,
+      "endMs": 3181,
+      "timestampMs": 2647,
+      "confidence": null
+    },
+    {
+      "text": " Empty",
+      "startMs": 3564,
+      "endMs": 3889,
+      "timestampMs": 3564,
+      "confidence": null
+    },
+    {
+      "text": " folder",
+      "startMs": 3971,
+      "endMs": 4319,
+      "timestampMs": 3971,
+      "confidence": null
+    },
+    {
+      "text": " at",
+      "startMs": 4389,
+      "endMs": 4470,
+      "timestampMs": 4389,
+      "confidence": null
+    },
+    {
+      "text": " 8:41",
+      "startMs": 4563,
+      "endMs": 5259,
+      "timestampMs": 4563,
+      "confidence": null
+    },
+    {
+      "text": " PM.",
+      "startMs": 5352,
+      "endMs": 5770,
+      "timestampMs": 5352,
+      "confidence": null
+    },
+    {
+      "text": " Live",
+      "startMs": 5921,
+      "endMs": 6235,
+      "timestampMs": 5921,
+      "confidence": null
+    },
+    {
+      "text": " just",
+      "startMs": 6293,
+      "endMs": 6548,
+      "timestampMs": 6293,
+      "confidence": null
+    },
+    {
+      "text": " after",
+      "startMs": 6594,
+      "endMs": 6815,
+      "timestampMs": 6594,
+      "confidence": null
+    },
+    {
+      "text": " midnight.",
+      "startMs": 6885,
+      "endMs": 7314,
+      "timestampMs": 6885,
+      "confidence": null
+    },
+    {
+      "text": " Eighteen",
+      "startMs": 7396,
+      "endMs": 7872,
+      "timestampMs": 7396,
+      "confidence": null
+    },
+    {
+      "text": " commits.",
+      "startMs": 7953,
+      "endMs": 8545,
+      "timestampMs": 7953,
+      "confidence": null
+    },
+    {
+      "text": " Claude",
+      "startMs": 9497,
+      "endMs": 9845,
+      "timestampMs": 9497,
+      "confidence": null
+    },
+    {
+      "text": " wrote",
+      "startMs": 9868,
+      "endMs": 10089,
+      "timestampMs": 9868,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 10112,
+      "endMs": 10182,
+      "timestampMs": 10112,
+      "confidence": null
+    },
+    {
+      "text": " code.",
+      "startMs": 10228,
+      "endMs": 10728,
+      "timestampMs": 10228,
+      "confidence": null
+    },
+    {
+      "text": " I",
+      "startMs": 11111,
+      "endMs": 11169,
+      "timestampMs": 11111,
+      "confidence": null
+    },
+    {
+      "text": " made",
+      "startMs": 11285,
+      "endMs": 11482,
+      "timestampMs": 11285,
+      "confidence": null
+    },
+    {
+      "text": " every",
+      "startMs": 11517,
+      "endMs": 11726,
+      "timestampMs": 11517,
+      "confidence": null
+    },
+    {
+      "text": " decision.",
+      "startMs": 11773,
+      "endMs": 12399,
+      "timestampMs": 11773,
+      "confidence": null
+    },
+    {
+      "text": " It",
+      "startMs": 12910,
+      "endMs": 13038,
+      "timestampMs": 12910,
+      "confidence": null
+    },
+    {
+      "text": " got",
+      "startMs": 13096,
+      "endMs": 13259,
+      "timestampMs": 13096,
+      "confidence": null
+    },
+    {
+      "text": " one",
+      "startMs": 13328,
+      "endMs": 13526,
+      "timestampMs": 13328,
+      "confidence": null
+    },
+    {
+      "text": " thing",
+      "startMs": 13560,
+      "endMs": 13735,
+      "timestampMs": 13560,
+      "confidence": null
+    },
+    {
+      "text": " wrong.",
+      "startMs": 13793,
+      "endMs": 14199,
+      "timestampMs": 13793,
+      "confidence": null
+    },
+    {
+      "text": " An",
+      "startMs": 14408,
+      "endMs": 14559,
+      "timestampMs": 14408,
+      "confidence": null
+    },
+    {
+      "text": " AI's",
+      "startMs": 14629,
+      "endMs": 15012,
+      "timestampMs": 14629,
+      "confidence": null
+    },
+    {
+      "text": " knowledge",
+      "startMs": 15058,
+      "endMs": 15464,
+      "timestampMs": 15058,
+      "confidence": null
+    },
+    {
+      "text": " has",
+      "startMs": 15511,
+      "endMs": 15685,
+      "timestampMs": 15511,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 15732,
+      "endMs": 15755,
+      "timestampMs": 15732,
+      "confidence": null
+    },
+    {
+      "text": " date.",
+      "startMs": 15801,
+      "endMs": 16196,
+      "timestampMs": 15801,
+      "confidence": null
+    },
+    {
+      "text": " And",
+      "startMs": 16579,
+      "endMs": 16718,
+      "timestampMs": 16579,
+      "confidence": null
+    },
+    {
+      "text": " I",
+      "startMs": 16800,
+      "endMs": 16835,
+      "timestampMs": 16800,
+      "confidence": null
+    },
+    {
+      "text": " said",
+      "startMs": 16951,
+      "endMs": 17137,
+      "timestampMs": 16951,
+      "confidence": null
+    },
+    {
+      "text": " no",
+      "startMs": 17206,
+      "endMs": 17369,
+      "timestampMs": 17206,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 17450,
+      "endMs": 17520,
+      "timestampMs": 17450,
+      "confidence": null
+    },
+    {
+      "text": " over-engineering.",
+      "startMs": 17636,
+      "endMs": 18600,
+      "timestampMs": 17636,
+      "confidence": null
+    },
+    {
+      "text": " A",
+      "startMs": 18843,
+      "endMs": 18913,
+      "timestampMs": 18843,
+      "confidence": null
+    },
+    {
+      "text": " fast",
+      "startMs": 19006,
+      "endMs": 19273,
+      "timestampMs": 19006,
+      "confidence": null
+    },
+    {
+      "text": " pair",
+      "startMs": 19331,
+      "endMs": 19494,
+      "timestampMs": 19331,
+      "confidence": null
+    },
+    {
+      "text": " programmer,",
+      "startMs": 19563,
+      "endMs": 20132,
+      "timestampMs": 19563,
+      "confidence": null
+    },
+    {
+      "text": " not",
+      "startMs": 20260,
+      "endMs": 20422,
+      "timestampMs": 20260,
+      "confidence": null
+    },
+    {
+      "text": " an",
+      "startMs": 20457,
+      "endMs": 20504,
+      "timestampMs": 20457,
+      "confidence": null
+    },
+    {
+      "text": " autopilot.",
+      "startMs": 20538,
+      "endMs": 21200,
+      "timestampMs": 20538,
+      "confidence": null
+    },
+    {
+      "text": " Full",
+      "startMs": 22013,
+      "endMs": 22268,
+      "timestampMs": 22013,
+      "confidence": null
+    },
+    {
+      "text": " story",
+      "startMs": 22326,
+      "endMs": 22675,
+      "timestampMs": 22326,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 22744,
+      "endMs": 22837,
+      "timestampMs": 22744,
+      "confidence": null
+    },
+    {
+      "text": " mehmetcinar.com.",
+      "startMs": 22895,
+      "endMs": 24288,
+      "timestampMs": 22895,
+      "confidence": null
+    }
+  ]
+}
