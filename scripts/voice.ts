@@ -1,13 +1,18 @@
 // Generates the voice-over and its word timings for a Short.
 //
-//   bun scripts/voice.ts estimate    placeholder timings, no audio (to work on the visuals)
-//   bun scripts/voice.ts samples     the hook line in each candidate voice, in out/samples/
-//   bun scripts/voice.ts <voice-id>  the full narration → public/<slug>/voice.mp3 + timeline.json
+//   bun scripts/voice.ts <slug> estimate    placeholder timings, no audio (to work on the visuals)
+//   bun scripts/voice.ts <slug> samples     the hook line in each candidate voice, in out/samples/
+//   bun scripts/voice.ts <slug> <voice>     the full narration → public/<slug>/voice.mp3 + timeline.json
 //
 // Reads ELEVENLABS_API_KEY from .env (bun loads it).
 import { mkdirSync, writeFileSync } from "node:fs";
 import type { Caption } from "@remotion/captions";
-import { scenes, slug } from "../src/shorts/one-evening-with-claude-code/script";
+import type { Timeline } from "../src/components/Short";
+
+const [slug, arg] = process.argv.slice(2);
+const { scenes } = (await import(`../src/shorts/${slug}/script.ts`)) as {
+  scenes: readonly { id: string; text: string }[];
+};
 
 const CANDIDATES = {
   brian: "nPczCjzI2devNBz1zQrb",
@@ -19,13 +24,6 @@ type Alignment = {
   characters: string[];
   character_start_times_seconds: number[];
   character_end_times_seconds: number[];
-};
-
-export type Timeline = {
-  voice: boolean;
-  durationMs: number;
-  scenes: { id: string; startMs: number }[];
-  captions: Caption[];
 };
 
 const text = scenes.map((scene) => scene.text).join(" ");
@@ -107,7 +105,6 @@ function estimate(): Alignment {
 }
 
 const dir = `public/${slug}`;
-const arg = process.argv[2];
 mkdirSync(dir, { recursive: true });
 
 if (arg === "estimate") {
@@ -127,5 +124,5 @@ if (arg === "estimate") {
   writeFileSync(`${dir}/timeline.json`, JSON.stringify(timelineFrom(toCaptions(alignment), true), null, 2));
   console.log(`${dir}/voice.mp3 + timeline.json`);
 } else {
-  console.log("Usage: bun scripts/voice.ts estimate | samples | <voice name or id>");
+  console.log("Usage: bun scripts/voice.ts <slug> estimate | samples | <voice name or id>");
 }

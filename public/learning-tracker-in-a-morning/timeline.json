@@ -1,0 +1,417 @@
+{
+  "voice": true,
+  "durationMs": 23359,
+  "scenes": [
+    {
+      "id": "hook",
+      "startMs": 0
+    },
+    {
+      "id": "curriculum",
+      "startMs": 3773
+    },
+    {
+      "id": "clock",
+      "startMs": 8162
+    },
+    {
+      "id": "cloud",
+      "startMs": 11053
+    },
+    {
+      "id": "public",
+      "startMs": 16068
+    },
+    {
+      "id": "end",
+      "startMs": 19551
+    }
+  ],
+  "captions": [
+    {
+      "text": "No",
+      "startMs": 0,
+      "endMs": 186,
+      "timestampMs": 0,
+      "confidence": null
+    },
+    {
+      "text": " course",
+      "startMs": 279,
+      "endMs": 546,
+      "timestampMs": 279,
+      "confidence": null
+    },
+    {
+      "text": " fit",
+      "startMs": 580,
+      "endMs": 731,
+      "timestampMs": 580,
+      "confidence": null
+    },
+    {
+      "text": " my",
+      "startMs": 778,
+      "endMs": 871,
+      "timestampMs": 778,
+      "confidence": null
+    },
+    {
+      "text": " life.",
+      "startMs": 940,
+      "endMs": 1358,
+      "timestampMs": 940,
+      "confidence": null
+    },
+    {
+      "text": " So",
+      "startMs": 1869,
+      "endMs": 2020,
+      "timestampMs": 1869,
+      "confidence": null
+    },
+    {
+      "text": " I",
+      "startMs": 2101,
+      "endMs": 2125,
+      "timestampMs": 2101,
+      "confidence": null
+    },
+    {
+      "text": " built",
+      "startMs": 2194,
+      "endMs": 2368,
+      "timestampMs": 2194,
+      "confidence": null
+    },
+    {
+      "text": " my",
+      "startMs": 2415,
+      "endMs": 2508,
+      "timestampMs": 2415,
+      "confidence": null
+    },
+    {
+      "text": " own.",
+      "startMs": 2577,
+      "endMs": 2961,
+      "timestampMs": 2577,
+      "confidence": null
+    },
+    {
+      "text": " Claude",
+      "startMs": 3773,
+      "endMs": 4087,
+      "timestampMs": 3773,
+      "confidence": null
+    },
+    {
+      "text": " found",
+      "startMs": 4110,
+      "endMs": 4307,
+      "timestampMs": 4110,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 4342,
+      "endMs": 4412,
+      "timestampMs": 4342,
+      "confidence": null
+    },
+    {
+      "text": " sources.",
+      "startMs": 4447,
+      "endMs": 5120,
+      "timestampMs": 4447,
+      "confidence": null
+    },
+    {
+      "text": " Twenty-eight",
+      "startMs": 5329,
+      "endMs": 5782,
+      "timestampMs": 5329,
+      "confidence": null
+    },
+    {
+      "text": " courses,",
+      "startMs": 5828,
+      "endMs": 6478,
+      "timestampMs": 5828,
+      "confidence": null
+    },
+    {
+      "text": " two",
+      "startMs": 6606,
+      "endMs": 6757,
+      "timestampMs": 6606,
+      "confidence": null
+    },
+    {
+      "text": " hundred",
+      "startMs": 6815,
+      "endMs": 7001,
+      "timestampMs": 6815,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 7024,
+      "endMs": 7094,
+      "timestampMs": 7024,
+      "confidence": null
+    },
+    {
+      "text": " eight",
+      "startMs": 7129,
+      "endMs": 7268,
+      "timestampMs": 7129,
+      "confidence": null
+    },
+    {
+      "text": " parts.",
+      "startMs": 7303,
+      "endMs": 7837,
+      "timestampMs": 7303,
+      "confidence": null
+    },
+    {
+      "text": " Built",
+      "startMs": 8162,
+      "endMs": 8406,
+      "timestampMs": 8162,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 8452,
+      "endMs": 8510,
+      "timestampMs": 8452,
+      "confidence": null
+    },
+    {
+      "text": " one",
+      "startMs": 8580,
+      "endMs": 8742,
+      "timestampMs": 8580,
+      "confidence": null
+    },
+    {
+      "text": " morning.",
+      "startMs": 8777,
+      "endMs": 9230,
+      "timestampMs": 8777,
+      "confidence": null
+    },
+    {
+      "text": " Thirteen",
+      "startMs": 9439,
+      "endMs": 9845,
+      "timestampMs": 9439,
+      "confidence": null
+    },
+    {
+      "text": " commits.",
+      "startMs": 9903,
+      "endMs": 10449,
+      "timestampMs": 9903,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 11053,
+      "endMs": 11169,
+      "timestampMs": 11053,
+      "confidence": null
+    },
+    {
+      "text": " back",
+      "startMs": 11227,
+      "endMs": 11436,
+      "timestampMs": 11227,
+      "confidence": null
+    },
+    {
+      "text": " end",
+      "startMs": 11494,
+      "endMs": 11598,
+      "timestampMs": 11494,
+      "confidence": null
+    },
+    {
+      "text": " runs",
+      "startMs": 11656,
+      "endMs": 11854,
+      "timestampMs": 11656,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 11900,
+      "endMs": 11981,
+      "timestampMs": 11900,
+      "confidence": null
+    },
+    {
+      "text": " Cloudflare.",
+      "startMs": 12051,
+      "endMs": 12829,
+      "timestampMs": 12051,
+      "confidence": null
+    },
+    {
+      "text": " One",
+      "startMs": 13270,
+      "endMs": 13468,
+      "timestampMs": 13270,
+      "confidence": null
+    },
+    {
+      "text": " platform,",
+      "startMs": 13502,
+      "endMs": 14106,
+      "timestampMs": 13502,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 14257,
+      "endMs": 14385,
+      "timestampMs": 14257,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 14431,
+      "endMs": 14501,
+      "timestampMs": 14431,
+      "confidence": null
+    },
+    {
+      "text": " free",
+      "startMs": 14536,
+      "endMs": 14721,
+      "timestampMs": 14536,
+      "confidence": null
+    },
+    {
+      "text": " plan.",
+      "startMs": 14768,
+      "endMs": 15255,
+      "timestampMs": 14768,
+      "confidence": null
+    },
+    {
+      "text": " My",
+      "startMs": 16068,
+      "endMs": 16184,
+      "timestampMs": 16068,
+      "confidence": null
+    },
+    {
+      "text": " progress",
+      "startMs": 16254,
+      "endMs": 16684,
+      "timestampMs": 16254,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 16718,
+      "endMs": 16788,
+      "timestampMs": 16718,
+      "confidence": null
+    },
+    {
+      "text": " public.",
+      "startMs": 16846,
+      "endMs": 17345,
+      "timestampMs": 16846,
+      "confidence": null
+    },
+    {
+      "text": " It",
+      "startMs": 17671,
+      "endMs": 17798,
+      "timestampMs": 17671,
+      "confidence": null
+    },
+    {
+      "text": " keeps",
+      "startMs": 17845,
+      "endMs": 18054,
+      "timestampMs": 17845,
+      "confidence": null
+    },
+    {
+      "text": " me",
+      "startMs": 18100,
+      "endMs": 18181,
+      "timestampMs": 18100,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 18239,
+      "endMs": 18321,
+      "timestampMs": 18239,
+      "confidence": null
+    },
+    {
+      "text": " course.",
+      "startMs": 18390,
+      "endMs": 18855,
+      "timestampMs": 18390,
+      "confidence": null
+    },
+    {
+      "text": " Learning",
+      "startMs": 19551,
+      "endMs": 19842,
+      "timestampMs": 19551,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 19888,
+      "endMs": 19934,
+      "timestampMs": 19888,
+      "confidence": null
+    },
+    {
+      "text": " public.",
+      "startMs": 19993,
+      "endMs": 20457,
+      "timestampMs": 19993,
+      "confidence": null
+    },
+    {
+      "text": " Full",
+      "startMs": 21061,
+      "endMs": 21293,
+      "timestampMs": 21061,
+      "confidence": null
+    },
+    {
+      "text": " story",
+      "startMs": 21339,
+      "endMs": 21641,
+      "timestampMs": 21339,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 21699,
+      "endMs": 21792,
+      "timestampMs": 21699,
+      "confidence": null
+    },
+    {
+      "text": " mehmetcinar.com.",
+      "startMs": 21850,
+      "endMs": 23359,
+      "timestampMs": 21850,
+      "confidence": null
+    }
+  ]
+}

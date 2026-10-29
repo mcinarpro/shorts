@@ -1,32 +1,10 @@
-import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { Clock } from "../../components/Clock";
 import { Phone } from "../../components/Phone";
+import { Chip, Label, PopWord, Stage, usePop } from "../../components/stage";
 import { color } from "../../theme";
 import { slug } from "./script";
 import type { SceneId } from "./script";
-
-// Scene content stays between y=140 and y=1240; the captions sit below, clear of the
-// Shorts interface at the bottom.
-const Stage: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <AbsoluteFill
-    style={{ top: 140, height: 1100, overflow: "hidden", alignItems: "center", justifyContent: "center", gap: 48, color: color.foreground }}
-  >
-    {children}
-  </AbsoluteFill>
-);
-
-const Label: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => (
-  <div style={{ fontSize: 40, letterSpacing: 6, textTransform: "uppercase", color: color.mutedForeground, ...style }}>
-    {children}
-  </div>
-);
-
-// 0 → 1 with a bounce, starting at `delay` frames.
-function usePop(delay = 0, damping = 12) {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  return spring({ frame: frame - delay, fps, config: { damping, stiffness: 200 } });
-}
-
 const Hook: React.FC = () => {
   const words = ["ONE", "EVENING."];
   const ai = usePop(14);
@@ -62,67 +40,6 @@ const Hook: React.FC = () => {
           marginBottom: -420,
         }}
       />
-    </Stage>
-  );
-};
-
-const PopWord: React.FC<{ delay: number; children: React.ReactNode }> = ({ delay, children }) => {
-  const pop = usePop(delay);
-  return (
-    <span style={{ display: "inline-block", scale: String(pop), translate: `0px ${interpolate(pop, [0, 1], [80, 0])}px` }}>
-      {children}
-    </span>
-  );
-};
-
-const Clock: React.FC = () => {
-  const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
-  // 20:41 → 00:01 is 200 minutes, run over the first 60 % of the scene.
-  const minutes = Math.round(
-    interpolate(frame, [6, durationInFrames * 0.6], [0, 200], {
-      extrapolateLeft: "clamp",
-      extrapolateRight: "clamp",
-    }),
-  );
-  const total = 20 * 60 + 41 + minutes;
-  const time = `${String(Math.floor(total / 60) % 24).padStart(2, "0")}:${String(total % 60).padStart(2, "0")}`;
-  const commits = Math.round(
-    interpolate(frame, [6, durationInFrames * 0.75], [0, 18], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }),
-  );
-  const live = spring({ frame: frame - Math.round(durationInFrames * 0.6), fps, config: { damping: 10 } });
-  return (
-    <Stage>
-      <Label>{minutes < 200 ? "First commit" : "Live"}</Label>
-      <div style={{ fontSize: 260, fontWeight: 700, fontVariantNumeric: "tabular-nums", lineHeight: 1 }}>{time}</div>
-      <div
-        style={{
-          fontSize: 56,
-          fontWeight: 700,
-          padding: "10px 32px",
-          borderRadius: 999,
-          background: color.accent,
-          color: color.background,
-          scale: String(live),
-        }}
-      >
-        mehmetcinar.com is live
-      </div>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(9, 64px)", gap: 16, marginTop: 40 }}>
-        {Array.from({ length: 18 }, (_, i) => (
-          <div
-            key={i}
-            style={{
-              width: 64,
-              height: 64,
-              borderRadius: 12,
-              background: i < commits ? color.foreground : "transparent",
-              border: `3px solid ${i < commits ? color.foreground : color.border}`,
-            }}
-          />
-        ))}
-      </div>
-      <Label style={{ color: color.foreground, fontSize: 48 }}>{commits} commits</Label>
     </Stage>
   );
 };
@@ -240,22 +157,6 @@ const Wrong: React.FC = () => {
   );
 };
 
-const Chip: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }> = ({ children, style }) => (
-  <div
-    style={{
-      position: "relative",
-      fontSize: 52,
-      padding: "24px 40px",
-      borderRadius: 20,
-      border: `2px solid ${color.border}`,
-      background: color.muted,
-      ...style,
-    }}
-  >
-    {children}
-  </div>
-);
-
 const NO_CARDS = [
   { title: "Geist font", note: "I kept my own" },
   { title: "2 tools for commit messages", note: "one line in a guide does it" },
@@ -356,7 +257,7 @@ const End: React.FC = () => {
 
 export const SCENES: Record<SceneId, React.FC> = {
   hook: Hook,
-  clock: Clock,
+  clock: () => <Clock from="20:41" minutes={200} commits={18} live="mehmetcinar.com is live" />,
   split: Split,
   wrong: Wrong,
   no: No,
