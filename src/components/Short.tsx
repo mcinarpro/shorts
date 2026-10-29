@@ -12,17 +12,20 @@ export type Timeline = {
   captions: Caption[];
 };
 
-// A Short: its scenes timed from the voice-over, a whoosh on each cut, the captions on top.
-export const Short: React.FC<{ slug: string; timeline: Timeline; scenes: Record<string, React.FC> }> = ({
-  slug,
-  timeline,
-  scenes,
-}) => {
+// A Short: its scenes timed from the voice-over over an optional backdrop, a whoosh on each
+// cut, the captions on top.
+export const Short: React.FC<{
+  slug: string;
+  timeline: Timeline;
+  scenes: Record<string, React.FC>;
+  backdrop?: React.FC;
+}> = ({ slug, timeline, scenes, backdrop: Backdrop }) => {
   const { fps, durationInFrames } = useVideoConfig();
   const toFrame = (ms: number) => Math.round((ms / 1000) * fps);
 
   return (
     <AbsoluteFill style={{ background: color.background, fontFamily }}>
+      {Backdrop && <Backdrop />}
       {timeline.scenes.map((scene, i) => {
         const from = toFrame(scene.startMs);
         const next = timeline.scenes[i + 1];

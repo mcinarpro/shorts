@@ -1,0 +1,466 @@
+{
+  "voice": true,
+  "durationMs": 22012,
+  "scenes": [
+    {
+      "id": "hook",
+      "startMs": 0
+    },
+    {
+      "id": "cabinet",
+      "startMs": 3425
+    },
+    {
+      "id": "legacy",
+      "startMs": 7140
+    },
+    {
+      "id": "developer",
+      "startMs": 11088
+    },
+    {
+      "id": "basics",
+      "startMs": 14756
+    },
+    {
+      "id": "end",
+      "startMs": 18448
+    }
+  ],
+  "captions": [
+    {
+      "text": "No",
+      "startMs": 0,
+      "endMs": 163,
+      "timestampMs": 0,
+      "confidence": null
+    },
+    {
+      "text": " electrician",
+      "startMs": 221,
+      "endMs": 731,
+      "timestampMs": 221,
+      "confidence": null
+    },
+    {
+      "text": " wants",
+      "startMs": 789,
+      "endMs": 964,
+      "timestampMs": 789,
+      "confidence": null
+    },
+    {
+      "text": " to",
+      "startMs": 1010,
+      "endMs": 1068,
+      "timestampMs": 1010,
+      "confidence": null
+    },
+    {
+      "text": " touch",
+      "startMs": 1138,
+      "endMs": 1382,
+      "timestampMs": 1138,
+      "confidence": null
+    },
+    {
+      "text": " our",
+      "startMs": 1428,
+      "endMs": 1533,
+      "timestampMs": 1428,
+      "confidence": null
+    },
+    {
+      "text": " old",
+      "startMs": 1591,
+      "endMs": 1765,
+      "timestampMs": 1591,
+      "confidence": null
+    },
+    {
+      "text": " home",
+      "startMs": 1834,
+      "endMs": 2101,
+      "timestampMs": 1834,
+      "confidence": null
+    },
+    {
+      "text": " automation.",
+      "startMs": 2136,
+      "endMs": 2914,
+      "timestampMs": 2136,
+      "confidence": null
+    },
+    {
+      "text": " They",
+      "startMs": 3425,
+      "endMs": 3576,
+      "timestampMs": 3425,
+      "confidence": null
+    },
+    {
+      "text": " looked",
+      "startMs": 3611,
+      "endMs": 3796,
+      "timestampMs": 3611,
+      "confidence": null
+    },
+    {
+      "text": " at",
+      "startMs": 3820,
+      "endMs": 3866,
+      "timestampMs": 3820,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 3889,
+      "endMs": 3959,
+      "timestampMs": 3889,
+      "confidence": null
+    },
+    {
+      "text": " cabinet",
+      "startMs": 3994,
+      "endMs": 4365,
+      "timestampMs": 3994,
+      "confidence": null
+    },
+    {
+      "text": " and",
+      "startMs": 4400,
+      "endMs": 4470,
+      "timestampMs": 4400,
+      "confidence": null
+    },
+    {
+      "text": " left.",
+      "startMs": 4551,
+      "endMs": 4981,
+      "timestampMs": 4551,
+      "confidence": null
+    },
+    {
+      "text": " None",
+      "startMs": 5677,
+      "endMs": 5840,
+      "timestampMs": 5677,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 5875,
+      "endMs": 5921,
+      "timestampMs": 5875,
+      "confidence": null
+    },
+    {
+      "text": " them",
+      "startMs": 5956,
+      "endMs": 6072,
+      "timestampMs": 5956,
+      "confidence": null
+    },
+    {
+      "text": " sent",
+      "startMs": 6130,
+      "endMs": 6304,
+      "timestampMs": 6130,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 6339,
+      "endMs": 6362,
+      "timestampMs": 6339,
+      "confidence": null
+    },
+    {
+      "text": " quote.",
+      "startMs": 6409,
+      "endMs": 6815,
+      "timestampMs": 6409,
+      "confidence": null
+    },
+    {
+      "text": " About",
+      "startMs": 7140,
+      "endMs": 7384,
+      "timestampMs": 7140,
+      "confidence": null
+    },
+    {
+      "text": " twenty",
+      "startMs": 7407,
+      "endMs": 7628,
+      "timestampMs": 7407,
+      "confidence": null
+    },
+    {
+      "text": " years",
+      "startMs": 7651,
+      "endMs": 7825,
+      "timestampMs": 7651,
+      "confidence": null
+    },
+    {
+      "text": " old.",
+      "startMs": 7883,
+      "endMs": 8231,
+      "timestampMs": 7883,
+      "confidence": null
+    },
+    {
+      "text": " Nobody",
+      "startMs": 8557,
+      "endMs": 8835,
+      "timestampMs": 8557,
+      "confidence": null
+    },
+    {
+      "text": " maintains",
+      "startMs": 8870,
+      "endMs": 9288,
+      "timestampMs": 8870,
+      "confidence": null
+    },
+    {
+      "text": " it.",
+      "startMs": 9346,
+      "endMs": 9543,
+      "timestampMs": 9346,
+      "confidence": null
+    },
+    {
+      "text": " And",
+      "startMs": 9822,
+      "endMs": 9950,
+      "timestampMs": 9822,
+      "confidence": null
+    },
+    {
+      "text": " no",
+      "startMs": 10019,
+      "endMs": 10136,
+      "timestampMs": 10019,
+      "confidence": null
+    },
+    {
+      "text": " plan.",
+      "startMs": 10205,
+      "endMs": 10704,
+      "timestampMs": 10205,
+      "confidence": null
+    },
+    {
+      "text": " It's",
+      "startMs": 11088,
+      "endMs": 11273,
+      "timestampMs": 11088,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 11308,
+      "endMs": 11331,
+      "timestampMs": 11308,
+      "confidence": null
+    },
+    {
+      "text": " legacy",
+      "startMs": 11401,
+      "endMs": 11796,
+      "timestampMs": 11401,
+      "confidence": null
+    },
+    {
+      "text": " codebase.",
+      "startMs": 11865,
+      "endMs": 12550,
+      "timestampMs": 11865,
+      "confidence": null
+    },
+    {
+      "text": " So",
+      "startMs": 12759,
+      "endMs": 12992,
+      "timestampMs": 12759,
+      "confidence": null
+    },
+    {
+      "text": " I'll",
+      "startMs": 13108,
+      "endMs": 13317,
+      "timestampMs": 13108,
+      "confidence": null
+    },
+    {
+      "text": " work",
+      "startMs": 13351,
+      "endMs": 13526,
+      "timestampMs": 13351,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 13584,
+      "endMs": 13665,
+      "timestampMs": 13584,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 13700,
+      "endMs": 13758,
+      "timestampMs": 13700,
+      "confidence": null
+    },
+    {
+      "text": " like",
+      "startMs": 13793,
+      "endMs": 13932,
+      "timestampMs": 13793,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 13955,
+      "endMs": 13978,
+      "timestampMs": 13955,
+      "confidence": null
+    },
+    {
+      "text": " developer.",
+      "startMs": 14024,
+      "endMs": 14640,
+      "timestampMs": 14024,
+      "confidence": null
+    },
+    {
+      "text": " First,",
+      "startMs": 14756,
+      "endMs": 15220,
+      "timestampMs": 14756,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 15336,
+      "endMs": 15429,
+      "timestampMs": 15336,
+      "confidence": null
+    },
+    {
+      "text": " basics.",
+      "startMs": 15476,
+      "endMs": 16149,
+      "timestampMs": 15476,
+      "confidence": null
+    },
+    {
+      "text": " I",
+      "startMs": 16962,
+      "endMs": 17008,
+      "timestampMs": 16962,
+      "confidence": null
+    },
+    {
+      "text": " won't",
+      "startMs": 17078,
+      "endMs": 17252,
+      "timestampMs": 17078,
+      "confidence": null
+    },
+    {
+      "text": " touch",
+      "startMs": 17287,
+      "endMs": 17473,
+      "timestampMs": 17287,
+      "confidence": null
+    },
+    {
+      "text": " anything",
+      "startMs": 17542,
+      "endMs": 17891,
+      "timestampMs": 17542,
+      "confidence": null
+    },
+    {
+      "text": " before",
+      "startMs": 17937,
+      "endMs": 18192,
+      "timestampMs": 17937,
+      "confidence": null
+    },
+    {
+      "text": " that.",
+      "startMs": 18239,
+      "endMs": 18425,
+      "timestampMs": 18239,
+      "confidence": null
+    },
+    {
+      "text": " I'll",
+      "startMs": 18448,
+      "endMs": 18587,
+      "timestampMs": 18448,
+      "confidence": null
+    },
+    {
+      "text": " write",
+      "startMs": 18622,
+      "endMs": 18808,
+      "timestampMs": 18622,
+      "confidence": null
+    },
+    {
+      "text": " about",
+      "startMs": 18831,
+      "endMs": 19005,
+      "timestampMs": 18831,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 19040,
+      "endMs": 19110,
+      "timestampMs": 19040,
+      "confidence": null
+    },
+    {
+      "text": " step",
+      "startMs": 19144,
+      "endMs": 19353,
+      "timestampMs": 19144,
+      "confidence": null
+    },
+    {
+      "text": " by",
+      "startMs": 19400,
+      "endMs": 19504,
+      "timestampMs": 19400,
+      "confidence": null
+    },
+    {
+      "text": " step,",
+      "startMs": 19562,
+      "endMs": 19980,
+      "timestampMs": 19562,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 20189,
+      "endMs": 20352,
+      "timestampMs": 20189,
+      "confidence": null
+    },
+    {
+      "text": " mehmetcinar.com.",
+      "startMs": 20422,
+      "endMs": 22012,
+      "timestampMs": 20422,
+      "confidence": null
+    }
+  ]
+}
